@@ -12,4 +12,4 @@ For Case 3: Even O(NlogN) gives us TLE as it performs ~10^9 operations which are
 For the 3 implementations of solutions refer : 
 
  How to Determine the solution of a problem by looking at its constraints ?
-https://github.com/sai-praveenkumar/TimeComplexity/blob/5a87a7ed1502abfe197f606ccd0d2b81747d9b2d/TC.png
+Powers of 10 table 
