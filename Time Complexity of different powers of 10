@@ -1,1 +1,15 @@
+Typical compilers and coding sites allow upto 10^8 operations per second, Only a few coding sites allow upto 10^7 operations per second.
+ After figuring out the number of operations that can be performed, search for the right complexity by looking at the constraints given in the problem so that we could get an understanding of how far the code can be optimized.
+
+Example: Given an array A[] and a number x, check for a pair in A[] with the sum as x, where N is:
+a.) 1 <= N <= 10^3
+b.)1 <= N <= 10^5 
+c.)1 <= N <= 10^8
+For Case 1: A naive solution that is using two for-loops works as it gives us a complexity of O(N^2), which even in the worst case will perform 10^6 operations which are well under 10^8. Of course, O(N) and O(NlogN) is also acceptable in this case.
+For Case 2: We have to think of a better solution than O(N^2), as in worst case, it will perform 10^10 operations as N is 10^5. So complexity acceptable for this case is either O(N*logN) which is approximately 10^6 (105 * ~10) operations well under 10^8 or O(N).
+For Case 3: Even O(NlogN) gives us TLE as it performs ~10^9 operations which are over 10^8. So, the only solution which is acceptable is O(N) which in worst case will perform 10^8.
+
+For the 3 implementations of solutions refer : 
+
+ How to Determine the solution of a problem by looking at its constraints ?
 
